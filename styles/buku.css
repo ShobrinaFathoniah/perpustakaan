@@ -1,0 +1,56 @@
+th{
+    text-align: center;
+}
+
+tr{
+    text-align: center;
+}
+
+h4{
+    color : rgb(17, 5, 7);
+    text-align: right;
+}
+
+input[type = submit] {
+    font-size: 20px;
+    background-color: #4CAF50;
+    border: line black;
+    color: rgb(54, 23, 23);
+    padding: 15px 32px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+}
+
+input[type=submit]:active {
+    background: rgb(32, 77, 6);
+}
+
+input[type=reset] {
+    font-size: 20px;
+    background-color: rgb(241, 53, 53);
+    border: line rgb(228, 202, 202);
+    color: rgb(46, 17, 17);
+    padding: 15px 32px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=reset]:hover {
+    cursor: pointer;
+}
+
+input[type=reset]:active {
+    background: rgb(77, 6, 6);
+}
