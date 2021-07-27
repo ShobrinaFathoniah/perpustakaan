@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Login - Iread</title>
+        <link href = "layout/styles/login.css" rel = "stylesheet" type = "text/css" media = "all">
+    </head>
+    
+    <body style = "background-image:url('images/demo/backgrounds/bg.jpg'); background-repeat: no-repeat; background-size: cover;">
+        <div>
+            <div id="login" class="hoc clear"> 
+                <article>
+                    <div align = "center">
+                        <form action="login_proses.php" method="POST">
+                            <table>
+                                <tr>
+                                   <tb>
+                                       <br>
+                                       <br>
+                                    </tb>
+                                </tr>
+                                
+                                    <tr>
+                                        <td>Username</td>
+                                        <td></td>
+                                        <td><input type="text" name="username" placeholder="Masukan Username Anda"></td>
+                                    </tr>
+                            
+                                    <tr>
+                                        <td>Password</td>
+                                        <td></td>
+                                        <td><input type="password" name="password" placeholder="Masukan Password Anda"></td>
+                                    </tr>
+                                    <tr> <td><br></td> </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td><input type="submit" name="login" value="Log In" ></td>                    
+                                        <td><a href = "index.html">
+                                            <input style= "font-size: 20px;
+                                            background-color: rgb(241, 53, 53);
+                                            border: line rgb(228, 202, 202);
+                                            color: white;
+                                            padding: 15px 15px;
+                                            text-align: center;
+                                            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                            text-decoration: none;
+                                            display: inline-block;
+                                            cursor: pointer;" type="text" name="batal" value="Batal" > </a> </td>
+                                                            
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <td style ="font-size: small; font-weight: normal; text-shadow: white;">Tidak Punya Akun?</td>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <td style ="font-size: small; text-align: center; color: springgreen;"><a href = "registrasi.html"> Registrasi </a> </td>
+                                        </td>
+                                    </tr>
+                                
+                            </table>
+                        </form>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </body>
+</html>
